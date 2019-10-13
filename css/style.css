@@ -1,31 +1,31 @@
 @font-face {
   font-family: 'Micra Bold';
-  src: url("/fonts/micra/Micra-Bold.eot");
-  src: local("Micra Bold"), local("Micra-Bold"), url("/fonts/micra/Micra-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/micra/Micra-Bold.woff") format("woff"), url("/fonts/micra/micra-bold.ttf") format("truetype");
+  src: url("/my-homeworks/fonts/micra/Micra-Bold.eot");
+  src: local("Micra Bold"), local("Micra-Bold"), url("/my-homeworks/fonts/micra/Micra-Bold.eot?#iefix") format("embedded-opentype"), url("/my-homeworks/fonts/micra/Micra-Bold.woff") format("woff"), url("/my-homeworks/fonts/micra/micra-bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Micra Reg';
-  src: url("/fonts/micra//Micra.eot");
-  src: local("Micra"), url("/fonts/micra/Micra.eot?#iefix") format("embedded-opentype"), url("/fonts/micra/Micra.woff") format("woff"), url("/fonts/micra/micra.ttf") format("truetype");
+  src: url("/my-homeworks/fonts/micra//Micra.eot");
+  src: local("Micra"), url("/my-homeworks/fonts/micra/Micra.eot?#iefix") format("embedded-opentype"), url("/my-homeworks/fonts/micra/Micra.woff") format("woff"), url("/my-homeworks/fonts/micra/micra.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'a_LCDNova';
-  src: url("/fonts/alcdnova/a_LCDNova.eot");
-  src: local("a_LCDNova"), url("/fonts/alcdnova/a_LCDNova.eot?#iefix") format("embedded-opentype"), url("/fonts/alcdnova/a_LCDNova.woff") format("woff"), url("/fonts/alcdnova/alcdnova.ttf") format("truetype");
+  src: url("/my-homeworks/fonts/alcdnova/a_LCDNova.eot");
+  src: local("a_LCDNova"), url("/my-homeworks/fonts/alcdnova/a_LCDNova.eot?#iefix") format("embedded-opentype"), url("/my-homeworks/fonts/alcdnova/a_LCDNova.woff") format("woff"), url("/my-homeworks/fonts/alcdnova/alcdnova.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LC Chalk';
-  src: url("/fonts/chalk/LCChalk.eot");
-  src: local("LC Chalk"), local("LCChalk"), url("/fonts/chalk/LCChalk.eot?#iefix") format("embedded-opentype"), url("/fonts/chalk/LCChalk.woff") format("woff"), url("/fonts/chalk/chalk-font.ttf") format("truetype");
+  src: url("/my-homeworks/fonts/chalk/LCChalk.eot");
+  src: local("LC Chalk"), local("LCChalk"), url("/my-homeworks/fonts/chalk/LCChalk.eot?#iefix") format("embedded-opentype"), url("/my-homeworks/fonts/chalk/LCChalk.woff") format("woff"), url("/my-homeworks/fonts/chalk/chalk-font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
