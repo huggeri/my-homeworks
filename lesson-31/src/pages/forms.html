@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Формы в HTML5</title>
+        <meta name="author" content="Екатерина Полозкова">
+    </head>
+    <body>
+        <!-- action единственный обязательный атрибут - 
+        путь до файла-обработчика. В 
+        случае использования ajax, 
+        в значиении action будет стоять "#" - заглушка-->
+        <!--Создали контейнер form-->
+        <form action="" autocomplete="on" enctype="multipart/form-data" method="POST" target="_blank"></form> 
+        <!--Autocomplete в значении on позволяет 
+        использовать пользователю автозаполнение форм.
+        Enctype позволяет выбрать тип, в котором 
+        данные из формы пойдут на сервер
+        Method указывет метод, которым данные 
+        передаются на сервер.
+        Post более безопасен, чем get.
+        Target указывает, в каком окне отправится 
+        форма - в новом или в текущем.-->
+            <fieldset>
+                <legend>
+                    Анкета пользователя
+                </legend>
+                <label for="user-name">Введите имя</label>
+                <input id="user-name" type="text" placeholder="Например, Евгений" required>
+                <!--Если пользователь не заполняет поле, имеющее атрибут required, 
+                форма не отправляется на сервер. Работает не во всех браузерах
+                Есть атрибуты maxlength, minlength, autocomplete, autofocus (нет значений),
+                disabled (нет значений), name, value-->
+                <br>
+                <label for="user-name">Введите фамилию</label>
+                <input id="user-name" type="text" placeholder="Например, Евгеничев" required>
+                <br>
+                <label for="user-name">Введите отчество</label>
+                <input id="user-name" type="text" placeholder="Например, Евгеньевич" required>
+                <br>
+                <label for="#">Введите номер телефона</label>
+                <input type="tel" placeholder="+7 999 999 99 99">
+                <!--Для инпута есть также атрибут pattern который позволяет указать паттерн ввода.
+                Этот атрибут не обязательный и работает не во всех браузерах.
+                Если паттерн указать, то при вводе пользователем номера он будет
+                сразу красиво выглядеть-->
+                <br>
+                <label for="#">Введите e-mail</label>
+                <input type="email" required>
+                <br>
+                <label for="#">Ваше любимое блюдо</label>
+                <br>
+                <input id="pizza" type="radio" name="food" required>
+                <label for="pizza">Пицца</label>
+
+                <input id="potato" type="radio" name="food" required>
+                <label for="potato">Картошка</label>
+
+                <input id="beer" type="radio" name="food" required>
+                <label for="beer">Пиво</label>
+                <br>
+                <label for="#">Дата вашего рождения</label>
+                <input type="date" name="" id="">
+                <br>
+                <label for="#">Загрузите свою фотографию</label>
+                <input type="file" multiple>
+                <!--Атрибут multiple говорит, что можно выбрать
+                не один файл, а несколько-->
+                <br>
+                <label for="#">Введите пароль</label>
+                <input type="password">
+                <br>
+                <!--Оценка с помощью перемещения ползунка-->
+                <input type="range">
+                <!--Этот инпут поддреживется не во всех браузерах,
+                используется довольно редко-->
+                <br>
+                <!--Развернутый комментарий-->
+                <textarea cols="20" rows="5"></textarea>
+                <br>
+                <!--Выпадающий список-->
+                <select multiple size="3">
+                    <option value="" disabled>Москва</option>
+                    <option value="">Питер</option>
+                    <option value="" selected>Новосибирск</option>
+                    <option value="">Екатеринбург</option>
+                </select>
+                <br>
+                <!--Кнопка сброса формы-->
+                <input type="reset">
+                <br><br>
+                <!--Кнопка отправить-->
+                <input type="submit" value="Послать">
+                <button type="submit">Кнопка отправки формы</button>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Данные пользователя
+                </legend>                
+            </fieldset>
+        </form>
+    </body>
+</html>

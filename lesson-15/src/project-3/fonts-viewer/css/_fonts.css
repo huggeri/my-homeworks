@@ -1,0 +1,48 @@
+/* Open Sans */
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/OpenSans/OpenSans-Regular.eot');
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.os-font {font-family: 'Open Sans Regular';}
+/* Rebas Regular */
+@font-face {
+  font-family: 'Rebas Regular';
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/BebasRegular/BebasRegular.eot');
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/BebasRegular/BebasRegular.eot?#iefix') format('embedded-opentype'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/BebasRegular/BebasRegular.woff') format('woff'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/BebasRegular/BebasRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.rr-font {font-family: 'Rebas Regular';}
+/* Bad Script */
+@font-face {
+  font-family: 'Bad Script Regular';
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/BadScript/BadScript-Regular.eot');
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/BadScript/BadScript-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/BadScript/BadScript-Regular.woff') format('woff'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/BadScript/BadScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.bsr-font {font-family: 'Bad Script Regular';}
+/* Lobster Regular */
+@font-face {
+  font-family: 'Lobster Regular';
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/Lobster/Lobster.eot');
+  src: url('/lesson-15/src/project-3/fonts-viewer/fonts/Lobster/Lobster.eot?#iefix') format('embedded-opentype'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/Lobster/Lobster.woff') format('woff'),
+  url('/lesson-15/src/project-3/fonts-viewer/fonts/Lobster/Lobster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.lr-font {font-family: 'Lobster Regular';}

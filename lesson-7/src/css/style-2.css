@@ -1,0 +1,154 @@
+p {
+  margin: 0;
+}
+
+img {
+  display: none;
+}
+
+.hard, .about-book, .books-description, .buttons, 
+.books-name, .author-name, .description, .price, 
+.about-delivery, .delivery-headline, .picture-advantages, 
+.text-advantages, .text-elements {
+  display: flex;
+}
+
+.hard {
+  flex-direction: column;
+  width: 1366px;
+  height: 1211px;
+  margin: 0 auto;
+  font-family: Tahoma;
+  background-color: #ffffff;
+}
+
+.hard:after {
+  content: "";
+  position: absolute;
+  top: 824px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 408px;
+  z-index: -1;
+  background-color: #f2f2f2;
+}
+
+.about-book {
+  flex-direction: row;
+  width: 1005px;
+  margin: 5.96% 17.42% 7.44% 9%;
+  color: #000000;
+}
+
+.img {
+  display: inline-block;
+}
+
+.books-description {
+  flex-direction: column;
+  width: 527px;
+  margin-left: 7.36%;
+}
+
+.buttons {
+  flex-direction: row;
+}
+
+.buy-button {
+  width: 175px;
+  height: 67px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #ffffff;
+  background-color: #f05a22;
+  border-radius: 5px;
+  border-style: hidden;
+  }
+
+.learn-button {
+  width: 287px;
+  height: 67px;
+  margin: 0 15.3%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #f05a22;
+  background: transparent;
+  border: 2px solid #f05a22;
+  border-radius: 5px;
+}
+
+.books-name {
+  flex-basis: 17%;
+  align-items: flex-end;
+  margin-bottom: 2%;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.author-name {
+  flex-basis: 10%;
+  align-items: flex-start;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.price {
+  flex-basis: 20%;
+  align-items: center;
+  margin-bottom: 2%; 
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #313131;
+}
+
+.about-delivery {
+  flex-direction: column;
+  width: 1366px;
+  height: 408px;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+.delivery-headline {
+  flex-basis: 50%;
+  align-self: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.picture-advantages {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.picture-elements {
+  margin: 0 8.7%;
+}
+
+.text-advantages {
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.text-elements {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3.5%;
+}

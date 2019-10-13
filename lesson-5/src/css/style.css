@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(250, 228, 128);
+}
+
+header {
+  padding: 0 2%;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration-line: none; 
+  color: black;
+}
+
+aside {
+  position: fixed;
+  margin: 0 0 0 79%;
+  width: 20%;
+  background-color: rgb(250, 228, 128);
+}
+
+article {
+  width: 75.5%;
+  padding: 0 2%;
+  border-top: 2px solid;
+}
+
+img {
+  display: none;
+}
+
+figcaption {
+  width: 40%;
+  text-decoration-line: underline;
+}
+
+footer {
+  padding-top: 1em;
+}
+
+.big-text {
+  font-size: 1.1em;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.images {
+  display: inline-block !important;
+  width: 40%;
+  border: 5px solid;
+}
+
+.style-1 {
+  background-color: rgb(196, 250, 232);
+  border-bottom: solid rgb(196, 250, 232);
+}
+
+.style-2 {
+  background-color: rgb(212, 250, 201);
+  border-bottom: solid rgb(212, 250, 201);
+}
+
+.style-3 {
+  background-color: rgb(252, 225, 196);
+  border-bottom: solid rgb(252, 225, 196);
+}
+
+.style-4 {
+  background-color: rgb(255, 234, 255);
+  border-bottom: solid rgb(255, 234, 255);
+}
+
+.style-5 {
+  background-color: rgb(204, 221, 215);
+  border-bottom: 1px solid rgb(204, 221, 215);
+}

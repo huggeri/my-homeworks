@@ -1,0 +1,87 @@
+*
+  box-sizing: border-box
+
+body
+  +reg
+  color: $text-color
+
+.container
+  width: 570px
+  margin: 0 auto
+  padding: 98px 125px 100px 125px
+  background: url(/lesson-16/src/project-2/img/bg.png) no-repeat
+  background-size: cover
+
+.form
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 30px 27px 28px 29px
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03)
+  border: 1px solid $border-color
+  background-color: $white
+  &::before
+    content: 'create an account'
+    position: absolute
+    width: 148px
+    margin-top: -34px
+    margin-left: -56px
+    padding: 8px 0 7px 0
+    text-align: center
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
+    +bold
+    font-size: 12px
+    line-height: 12px
+    text-transform: uppercase
+    letter-spacing: -0.12px
+    color: $white
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15)
+    background-color: $main-color
+
+  &__field-name
+    align-self: flex-start
+    margin-bottom: 13px
+    +bold
+    font-size: 12px
+    line-height: 13px
+    &:first-child
+      margin-top: 25px
+      line-height: 10px !important
+    &_blue
+      color: $main-color
+
+  &__input
+    width: 100%
+    min-height: 32px
+    +reg
+    background: url(/lesson-16/src/project-2/img/bg.png)
+    border: 1px solid $border-color
+    border-radius: 2px
+    margin-bottom: 18px
+    outline: none
+    &:focus
+      border-color: $main-color
+    &::placeholder
+      +reg
+      font-size: 12px
+      font-style: italic
+      line-height: 12px
+      color: $placeholder-color
+      padding-left: 11px
+
+  &__button
+    width: 99%
+    margin-left: -1px
+    margin-top: 15px
+    +bold
+    font-size: 16px
+    line-height: 42px
+    text-transform: uppercase
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
+    color: $white
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+    border: 1px solid $bordeb-button-color
+    border-radius: 5px
+    background-color: $main-color
+    &:hover
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%)

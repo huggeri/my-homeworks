@@ -1,0 +1,395 @@
+@font-face {
+  font-family: 'Micra Bold';
+  src: url("/fonts/micra/Micra-Bold.eot");
+  src: local("Micra Bold"), local("Micra-Bold"), url("/fonts/micra/Micra-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/micra/Micra-Bold.woff") format("woff"), url("/fonts/micra/micra-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Micra Reg';
+  src: url("/fonts/micra//Micra.eot");
+  src: local("Micra"), url("/fonts/micra/Micra.eot?#iefix") format("embedded-opentype"), url("/fonts/micra/Micra.woff") format("woff"), url("/fonts/micra/micra.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'a_LCDNova';
+  src: url("/fonts/alcdnova/a_LCDNova.eot");
+  src: local("a_LCDNova"), url("/fonts/alcdnova/a_LCDNova.eot?#iefix") format("embedded-opentype"), url("/fonts/alcdnova/a_LCDNova.woff") format("woff"), url("/fonts/alcdnova/alcdnova.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LC Chalk';
+  src: url("/fonts/chalk/LCChalk.eot");
+  src: local("LC Chalk"), local("LCChalk"), url("/fonts/chalk/LCChalk.eot?#iefix") format("embedded-opentype"), url("/fonts/chalk/LCChalk.woff") format("woff"), url("/fonts/chalk/chalk-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background: url("/img/bgc-wall.png") repeat-y center;
+}
+
+img {
+  display: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1353px;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+}
+
+.unvisible {
+  display: none;
+}
+
+.ref {
+  color: #0ec720;
+  text-decoration: none;
+}
+
+.ref:hover {
+  text-decoration: underline;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.header {
+  padding: 0 100px;
+}
+
+.header__heading {
+  max-width: 700px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+  font-family: 'LC Chalk', sans-serif;
+  font-size: 35px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 1200px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__heading {
+    max-width: 774px;
+    padding: 0;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 981px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+  .header__heading {
+    max-width: 90%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 567px) {
+  .header__heading {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 434px) {
+  .header__heading {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 200px 50px 0 70px;
+  width: 774px;
+  height: 922px;
+  margin: 0 auto;
+  background: url("/img/doors.png") no-repeat;
+  background-size: cover;
+}
+
+.content__info {
+  width: 300px;
+  height: 213px;
+  margin-bottom: 30px;
+  background: url("/img/lcd-screen-1.png") no-repeat;
+  background-size: cover;
+  padding: 30px 35px 30px 40px;
+}
+
+.content__phone {
+  position: relative;
+  max-width: 200px;
+  margin-left: 25px;
+}
+
+.content-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.content__text {
+  max-width: 250px;
+  font-family: 'a_LCDNova', sans-serif;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #bf0a0a;
+}
+
+.content__input {
+  position: absolute;
+  width: 60px;
+  top: 15px;
+  right: 35px;
+  font-family: 'a_LCDNova', sans-serif;
+  font-size: 20px;
+  background: #231f19;
+  border: #0d0d0b solid;
+  color: #bf0a0a;
+  outline: none;
+}
+
+.content__button {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  color: transparent;
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.5) -2px -2px 4px, inset rgba(200, 200, 200, 0.9) 2px 2px 4px, rgba(0, 0, 0, 0.8) 2px 2px 3px -3px;
+          box-shadow: inset rgba(0, 0, 0, 0.5) -2px -2px 4px, inset rgba(200, 200, 200, 0.9) 2px 2px 4px, rgba(0, 0, 0, 0.8) 2px 2px 3px -3px;
+  outline: none;
+}
+
+.content__button:active {
+  -webkit-box-shadow: rgba(200, 200, 200, 0.9) 2px 2px 2px, rgba(0, 0, 0, 0.5) -2px -2px 2px, rgba(0, 0, 0, 0.8) 2px 2px 2px -2px;
+          box-shadow: rgba(200, 200, 200, 0.9) 2px 2px 2px, rgba(0, 0, 0, 0.5) -2px -2px 2px, rgba(0, 0, 0, 0.8) 2px 2px 2px -2px;
+}
+
+#b-1 {
+  top: 62px;
+  left: 105px;
+}
+
+#b-2 {
+  top: 62px;
+  left: 127px;
+}
+
+#b-3 {
+  top: 62px;
+  left: 149px;
+}
+
+#b-4 {
+  top: 83px;
+  left: 105px;
+}
+
+#b-5 {
+  top: 83px;
+  left: 127px;
+}
+
+#b-6 {
+  top: 83px;
+  left: 149px;
+}
+
+#b-7 {
+  top: 104px;
+  left: 105px;
+}
+
+#b-8 {
+  top: 104px;
+  left: 127px;
+}
+
+#b-9 {
+  top: 104px;
+  left: 149px;
+}
+
+#b-0 {
+  top: 126px;
+  left: 127px;
+}
+
+#key {
+  top: 126px;
+  left: 105px;
+}
+
+#c {
+  top: 126px;
+  left: 149px;
+}
+
+@media (max-width: 787px) {
+  .content {
+    width: 550px;
+    margin: 0 auto;
+    background: url("/img/doors-small.png") no-repeat;
+    background-size: cover;
+    padding: 0;
+  }
+  .content__info {
+    margin: 250px auto 30px 150px;
+  }
+  .content__phone {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 567px) {
+  .content {
+    min-width: 300px;
+    width: 90%;
+  }
+  .content__info {
+    min-width: 270px;
+    height: 213px;
+    margin: 250px auto 30px auto;
+  }
+  .content__phone {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 434px) {
+  .content {
+    height: 750px;
+    background-size: contain;
+    padding: 0 10%;
+  }
+  .content__info {
+    max-width: 250px;
+    min-width: 0;
+    background-size: contain;
+    margin: 100px auto 30px 0;
+    margin-left: 5%;
+    padding: 23px 30px;
+  }
+  .content__text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .content__phone {
+    margin-left: -8%;
+    margin-top: 50%;
+  }
+  .content__phone img {
+    display: none;
+  }
+  .content__input {
+    top: -155px;
+    right: 0;
+    left: 90px;
+    width: 130px;
+    font-family: 'a_LCDNova', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .content__button {
+    width: 30px;
+    height: 30px;
+    font-family: 'Micra Bold', sans-serif;
+    background: #464655;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  #b-2 {
+    margin-left: 139px;
+  }
+  #b-3 {
+    margin-left: 172px;
+  }
+  #b-4 {
+    margin-top: -80px;
+    margin-left: 105px;
+  }
+  #b-5 {
+    margin-top: -80px;
+    margin-left: 139px;
+  }
+  #b-6 {
+    margin-top: -80px;
+    margin-left: 172px;
+  }
+  #b-7 {
+    margin-top: -50px;
+    margin-left: 105px;
+  }
+  #b-8 {
+    margin-top: -50px;
+    margin-left: 139px;
+  }
+  #b-9 {
+    margin-top: -50px;
+    margin-left: 172px;
+  }
+  #b-0 {
+    margin-top: -19px;
+    margin-left: 139px;
+  }
+  #key {
+    margin-top: -19px;
+    margin-left: 105px;
+  }
+  #c {
+    margin-top: -19px;
+    margin-left: 172px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: "Arial MT", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #2f2f2f;
+}
+
+p, figure, .phones {
+  display: inline-block;
+}
+
+figure {
+  height: inherit;
+  margin: 0;
+}
+
+img {
+  display: none;
+}
+
+button, .phones-text, .phones-description, .price, .price-value {
+  position: absolute;
+}
+
+button {
+  width: 252px;
+  height: 50px;
+  margin-top: 372px;
+  margin-left: 102px;
+  font-size: 19px;
+  color: #ffffff;
+  background-color: #ec744a;
+  border-style: none;
+}
+
+.card {
+  width: 1010px;
+  height: 503px;
+  margin: 5% auto;
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7;
+}
+
+.phones {
+  margin: 64px 0 auto 48px;
+}
+
+.phones-text {
+  margin-top: 94px;
+  margin-left: 99px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.phones-description {
+  width: 400px;
+  margin-top: 146px;
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+.price {
+  margin-top: 251px;
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+.price-value {
+  margin-top: 288px;
+  margin-left: 102px;
+  font-size: 30px;
+}
