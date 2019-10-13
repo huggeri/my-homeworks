@@ -37,7 +37,7 @@
 
 body {
   margin: 0 auto;
-  background: url("/img/bgc-wall.png") repeat-y center;
+  background: url("/my-homeworks/img/bgc-wall.png") repeat-y center;
 }
 
 img {
@@ -153,7 +153,7 @@ p {
   width: 774px;
   height: 922px;
   margin: 0 auto;
-  background: url("/img/doors.png") no-repeat;
+  background: url("/my-homeworks/img/doors.png") no-repeat;
   background-size: cover;
 }
 
@@ -161,7 +161,7 @@ p {
   width: 300px;
   height: 213px;
   margin-bottom: 30px;
-  background: url("/img/lcd-screen-1.png") no-repeat;
+  background: url("/my-homeworks/img/lcd-screen-1.png") no-repeat;
   background-size: cover;
   padding: 30px 35px 30px 40px;
 }
@@ -279,7 +279,7 @@ p {
   .content {
     width: 550px;
     margin: 0 auto;
-    background: url("/img/doors-small.png") no-repeat;
+    background: url("/my-homeworks/img/doors-small.png") no-repeat;
     background-size: cover;
     padding: 0;
   }
