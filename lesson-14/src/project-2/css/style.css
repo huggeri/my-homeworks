@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'PF Din Text Cond Pro';
+  src: url("/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular.eot");
+  src: local("/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular"), url("/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular.eot?#iefix") format("embedded-opentype"), url("/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  letter-spacing: 0.18em;
+}
+
+img {
+  display: none;
+}
+
+.image {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 133px;
+  height: 41px;
+  font-family: 'PF Din Text Cond Pro', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+}
+
+.hero-block {
+  padding: 275px 0;
+  background-color: #f6f6f6;
+  color: #666666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-block__heading {
+  margin-bottom: 80px;
+  font-size: 33px;
+  font-family: 'PF Din Text Cond Pro', sans-serif;
+  font-weight: 900;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.hero-catalog {
+  width: 1176px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-catalog__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-catalog__type-blind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-catalog__image {
+  width: 276px;
+}
+
+.hero-catalog__text {
+  margin-top: 27px;
+  margin-bottom: 25px;
+  font-family: 'PF Din Text Cond Pro', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.hero-catalog__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-catalog__button_more {
+  color: #66cc66;
+  background-color: transparent;
+  border: 2px solid #66cc66;
+}
+
+.hero-catalog__button_order {
+  color: #ffffff;
+  background-color: #66cc66;
+}
+/*# sourceMappingURL=style.css.map */

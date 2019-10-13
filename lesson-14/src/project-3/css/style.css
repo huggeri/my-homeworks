@@ -1,0 +1,212 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  display: none;
+}
+
+.image {
+  display: inline-block;
+}
+
+.container {
+  width: 1920px;
+  margin: 48px auto;
+}
+
+.button {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ffb504;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f5ad00), to(#ffb504));
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
+  -webkit-box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  border: 1px solid #ffba15;
+}
+
+.hero-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 110px 0;
+  background-color: #006b00;
+}
+
+.hero-block__heading {
+  margin-bottom: 83px;
+  color: #ffffff;
+}
+
+.hero-block__title_below {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 5px;
+  margin-bottom: 55px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.hero-block__title_above {
+  padding-left: 75px;
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 65px;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.hero-block__subtitle_below {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.hero-block__subtitle_above {
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.hero-block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 7px 0px;
+}
+
+.hero-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 15px -10px;
+  padding: 0;
+  color: #1a1820;
+}
+
+.hero-list__item {
+  list-style-type: none;
+}
+
+.hero-list__text {
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.hero-list__image {
+  margin-right: 7px;
+  margin-bottom: 3px;
+}
+
+.prices-block {
+  margin-left: 5px;
+}
+
+.prices-block__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+  padding: 41px 50px 45px 50px;
+  color: #1a1820;
+  background-color: #ffffff;
+}
+
+.prices-block__title {
+  margin: 5px 0 33px 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.prices-block__price {
+  margin: 37px 0 24px 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.prices-block__price_margin {
+  margin: 32px 0 24px 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.prices-block__price_big {
+  font-size: 30px;
+}
+
+.prices-block__button {
+  margin-top: auto;
+  width: 209px;
+  height: 65px;
+  font-size: 16px;
+}
+
+.prices-block__image_black {
+  width: 300px;
+  height: 200px;
+  background: #000000;
+}
+
+.services-block {
+  margin-left: 16px;
+  margin-bottom: 5px;
+}
+
+.services-block__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 55px;
+}
+
+.services-block__button {
+  width: 146px;
+  height: 52px;
+  margin-top: 49px;
+  margin-left: 112px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

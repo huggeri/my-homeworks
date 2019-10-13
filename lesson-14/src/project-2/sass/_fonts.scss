@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'PF Din Text Cond Pro';
+  src: url('/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular.eot');
+  src: local('/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular'),
+  url('/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/lesson-14/src/project-2/fonts/PFDinTextCondPro/PFDinTextCondPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-family: 'PF Din Text Cond Pro', sans-serif;
+  font-weight: 900;
+}
+
+@mixin bolder {
+  font-family: 'PF Din Text Cond Pro', sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #32325f;
+}
+
+img {
+  display: none;
+}
+
+.image {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1140px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Оформление шапки */
+.hero {
+  background-color: #f4f5f7;
+  padding-top: 70px;
+  padding-bottom: 190px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 159px;
+}
+
+.brand {
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.social a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Оформление главного блока */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text {
+  width: 50%;
+}
+
+.subtitle {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  display: block;
+  margin-bottom: 26px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.price-tag {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price {
+  display: block;
+  margin-bottom: 49px;
+  font-size: 48px;
+  font-weight: 400;
+  color: #525f7f;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 31px;
+  color: #fff;
+  background-color: grey;
+}
+
+.btn-success {
+  background-color: #2dce89;
+  margin-right: 30px;
+}
+
+.btn-primary {
+  background-color: #5e72e4;
+  margin-right: 22px;
+}
+
+/* Оформление секций */
+.section {
+  padding: 90px 0;
+}
+
+.section-subtitle {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.section-title {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.block {
+  width: 23%;
+  margin-right: 2%;
+}
+
+.block-text {
+  margin: 40px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #525f7f;
+}
+
+.people {
+  background-color: #f4f5f7;
+}
+
+.people-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.people-block {
+  max-width: 362px;
+  max-height: 254px;
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
+
+.people-block img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Оформление футера */
+.footer {
+  color: #fff;
+  background-color: #32325f;
+  padding: 70px 0;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-block {
+  width: 33%;
+  padding-left: 16px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer a {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer p {
+  line-height: 1.4;
+}

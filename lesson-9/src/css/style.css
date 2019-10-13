@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma;
+  font-weight: 700;
+  color: #333333;
+}
+
+img {
+  display: none;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 70px 55px;
+  border: 1px solid #000;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 82px;
+  margin-bottom: 27px;
+  font-size: 16px;
+}
+
+.ad-image {
+  margin: 5px 0;
+}
+
+.ad-image img {
+  display: inline-block;
+}

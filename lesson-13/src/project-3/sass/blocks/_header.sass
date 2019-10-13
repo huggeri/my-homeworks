@@ -1,0 +1,63 @@
+.header
+  &-block
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: flex-end
+    background-image: url("/lesson-13/project-3/img/bgc.png")
+    padding-top: 35px
+
+  &__info
+    margin-left: 391px
+    padding-bottom: 80px
+
+  &__heading
+    &__style
+      margin-bottom: 33px
+      font-size: $big-font
+      +heading-font
+      color: $heading-color
+
+    &__city
+      margin-right: 342px
+      font-size: $normal-font
+      +heading-font
+      color: $light-text-color
+      background-color: $heading-bgc-color
+      padding: 5px 21px
+
+  &__image
+    width: 578px
+    height: 745px
+    margin-left: 68px
+
+  &__logo
+    margin-top: 91px
+    margin-bottom: 113px
+    margin-left: 7px
+    display: flex
+    align-items: center
+
+    &__image
+      width: 52px
+      height: 60px
+
+    &__info
+      +main-font
+      color: $dark-text-color
+      padding: 5px 39px
+
+  &__buttons
+
+    &__sign-up
+      +button-font
+      color: $light-text-color
+      background-color: $buttons-bgc-color
+      background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%)
+
+    &__watch-promo
+      margin-left: 29px
+      +button-font
+      color: $buttons-text-color
+      background-color: transparent
+      border: 2px solid $buttons-bgc-color

@@ -1,0 +1,54 @@
+.hero
+  &-block
+    padding: 275px 0
+    background-color: $bgc-color
+    color: $text-color
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    &__heading
+      margin-bottom: 80px
+      font-size: 33px
+      +bold
+      line-height: 25px
+      text-transform: uppercase
+
+  &-catalog
+    width: 1176px
+    display: flex
+    justify-content: space-between
+
+    &__item
+      display: flex
+      flex-direction: column
+
+    &__type-blind
+      display: flex
+      flex-direction: column
+      align-items: center
+    
+    &__image
+      width: 276px
+
+    &__text
+      margin-top: 27px
+      margin-bottom: 25px
+      +bolder
+      font-size: 20px
+      line-height: 22px
+      text-transform: uppercase
+      letter-spacing: 0.03em
+
+    &__buttons
+      display: flex
+      justify-content: space-between
+
+    &__button
+      &_more
+        color: $button-color
+        background-color: transparent
+        border: 2px solid $button-color
+      &_order
+        color: $button-text-color
+        background-color: $button-color
